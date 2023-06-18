@@ -26,7 +26,7 @@ To use `almeida-cv` theme you need to install Hugo Extended by following https:/
 hugo new site <your website's name>
 cd <your website's name>
 git init
-git submodule add https://github.com/ineesalmeida/almeida-cv.git themes/almeida-cv
+git submodule add git@github.com:alexwitherspoon/almeida-cv.git themes/almeida-cv
 ```
 Replace the files in your site root's directory with the ones in `themes/almeida-cv/exampleSite`.
 
