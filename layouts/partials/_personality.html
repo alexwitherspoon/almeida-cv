@@ -6,10 +6,7 @@
     <div class="sideSection__content">
         <ul class="language">
             {{ range .Personality }}
-            <li class="language__item">
-                <div class="language__name">{{ .Name | safeHTML }}</div>
-                <div class="language__level">{{ .Level | safeHTML }}</div>
-            </li>
+            <li class="interests__item">{{ . | safeHTML }}</li>
             {{ end }}
         </ul>
     </div>
