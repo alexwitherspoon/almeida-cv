@@ -4,9 +4,9 @@
         <h2 class="sideSection__title">{{ i18n "personality" }}</h2>
     </div>
     <div class="sideSection__content">
-        <ul class="diplomas">
+        <ul>
             {{ range .Personality }}
-            <li class="interests__item">{{ . | safeHTML }}</li>
+            <li>{{ . | safeHTML }}</li>
             {{ end }}
         </ul>
     </div>
