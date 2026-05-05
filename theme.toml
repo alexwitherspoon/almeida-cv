@@ -8,7 +8,7 @@ description = "Theme to build a customizeable printable CV with minor web respon
 homepage = "https://github.com/ineesalmeida/almeida-cv"
 tags = ["cv", "resume", "minimal", "simple"]
 features = ["simple", "cv", "printable"]
-min_version = "0.41.0"
+min_version = "0.156.0"
 
 [author]
   name = "Inês Almeida"
